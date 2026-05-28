@@ -1,5 +1,7 @@
 # Building Babbel Speak — From Hackathon to Home Screen
 
+> **v0.1** — Work in progress. This course is under active development. Feedback, corrections, and contributions welcome.
+
 A portfolio case study and AI product management course by **Franz Ardito**, Principal Product Manager at Babbel.
 
 ## What This Is
