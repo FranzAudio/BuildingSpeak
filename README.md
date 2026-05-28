@@ -46,9 +46,9 @@ This course works with any AI tool. No platform-specific formats, no proprietary
 
 ---
 
-## Acknowledgments
+## If you want more of this
 
-The structure of this course — pairing a PM case study with hands-on exercises — was inspired by [Sanjeev Rao](https://www.linkedin.com/in/sanjeev-rao-03435478/) and his [ProductFoundry 101](https://github.com/productfoundry101/ai-evals-bootcamp) course. Sanjeev was a brilliant product colleague at Babbel whose approach to blending narrative with practical skill-building shaped how I think about teaching product management. If you find this course useful, you'll find his work even better.
+Get the AI Bootcamp at [ProductFoundry 101](https://github.com/productfoundry101/ai-evals-bootcamp) by [Sanjeev Rao](https://www.linkedin.com/in/sanjeev-rao-03435478/).
 
 ---
 
