@@ -1,0 +1,70 @@
+conversation_id,language,user_level,transcript_snippet,failure_type
+CONV-001,Spanish,A1,"AI: ¿Cómo estás hoy?
+User: Bien, bien.
+AI: ¡Qué bueno! ¿De dónde eres? Yo soy de Madrid, una ciudad muy bonita con mucha historia y cultura. ¿Has visitado España alguna vez? Hay muchos lugares increíbles como la Sagrada Familia en Barcelona o el Museo del Prado. Si vienes, te recomiendo probar la paella valenciana, es deliciosa y muy tradicional.
+User: Sí... España bonita.",level_mismatch
+CONV-002,French,A1,"AI: Bonjour! Comment tu t'appelles?
+User: Je m'appelle Anna.
+AI: Enchanté Anna! Quel âge as-tu?
+User: J'ai vingt-cinq ans.
+AI: Très bien! Tu parles français depuis longtemps?
+User: Un mois.
+AI: Ah, seulement un mois? Tu apprends très vite. Qu'est-ce que tu aimes faire pendant ton temps libre?
+User: Je lis et je regarde films.",clean
+CONV-003,German,A1,"AI: Hallo! Wie heißt du?
+User: Ich heiße Marco.
+AI: Freut mich, Marco! Woher kommst du?
+User: Ich komme aus Italien.
+AI: Ah, Italien ist schön! Sprichst du Italienisch?
+User: Ja, ich spreche Italienisch.
+AI: Super! Und warum lernst du Deutsch?",clean
+CONV-004,Italian,A1,"AI: Ciao! Come ti chiami?
+User: Mi chiamo Sarah.
+AI: Piacere Sarah! Di dove sei?
+User: Sono di Londra.
+AI: Londra è una città fantastica. Quanti anni hai?
+User: Ho trenta anni. E tu?
+AI: Io sono un assistente virtuale, non ho un'età! Ma sono qui per aiutarti a praticare l'italiano. Parliamo di cosa ti piace fare nel tempo libero?
+User: Mi piace cucinare.",clean
+CONV-005,Spanish,A1,"AI: Hola, ¿cómo te llamas?
+User: Me llamo Tom.
+AI: Hola Tom. ¿De dónde eres?
+User: De Estados Unidos.
+AI: ¿De qué parte de Estados Unidos? Es un país muy grande y diverso. ¿Eres de la costa este, como Nueva York, o de la costa oeste, como California? ¿O quizás del medio oeste como Chicago?
+User: Uh... Nueva York.
+AI: ¡Qué interesante! ¿Qué te gusta hacer en tu tiempo libre?
+User: Me gusta deporte.
+AI: ¿Qué deporte? El fútbol, el baloncesto, el tenis, la natación... hay tantas opciones. A mí personalmente me encantaría aprender a jugar al tenis, aunque me han dicho que requiere mucha práctica y coordinación. Pero supongo que con dedicación todo se puede lograr, ¿no crees?
+User: Fútbol.",level_mismatch
+CONV-006,French,A1,"AI: Bonjour! Comment ça va aujourd'hui?
+User: Ça va bien, merci.
+AI: Tant mieux! Dis-moi, qu'est-ce que tu aimes faire le weekend?
+User: J'aime aller au parc.
+AI: Le parc, c'est une excellente idée! Moi aussi j'adore les parcs, surtout au printemps quand les fleurs commencent à éclore et que l'air est doux. Est-ce que tu vas au parc souvent?
+User: Oui, souvent.
+AI: Tu y vas avec des amis ou en famille?
+User: Avec amis.
+AI: C'est super! Et qu'est-ce que vous faites au parc?
+User: On parle et on mange.
+AI: Ah, des pique-niques! J'adore les pique-niques. Qu'est-ce que vous aimez manger au parc?
+User: Nous mangeons des sandwichs.",coherence_failure
+CONV-007,German,A1,"AI: Guten Tag! Wie geht es Ihnen?
+User: Wow, 'Sie' ist sehr formell. Ich bin Anfänger, benutze 'du' bitte.
+AI: Entschuldigung! Wie geht es dir?
+User: Gut, danke. Und dir?
+AI: Mir geht es auch gut. Was machst du beruflich?
+User: Ich bin Lehrer.
+AI: Das ist ein sehr wichtiger Beruf. Was unterrichtest du?
+User: Mathematik.
+AI: Mathematik ist ein schweres Fach. Viele Schüler haben Angst vor Mathematik. Warum, glaubst du, haben so viele Menschen Angst vor Mathematik?
+User: Vielleicht... weil abstrakt.
+AI: Ja, das stimmt wahrscheinlich. Abstrakte Konzepte sind schwer zu verstehen. In der Mathematik muss man sehr logisch denken. Findest du das auch?
+User: Ja.",language_switch
+CONV-008,Italian,A1,"AI: Ciao! Come stai oggi?
+User: Io bene, grazie!
+AI: Bene! Che cosa hai fatto ieri?
+User: Ieri io ho andato al cinema.
+AI: *sono andato. Remember, the verb 'andare' uses 'essere' as the auxiliary, so it's 'sono andato'. What movie did you see?
+User: Un film di azione.
+AI: Ah interessante! Ti piacciono i film di azione? A me piacevano molto i film d'azione quando avevo vent'anni, ma adesso preferisco i film drammatici e i documentari. Secondo me i documentari sulla natura sono particolarmente affascinanti perché ci mostrano un mondo che non vediamo nella vita quotidiana.
+User: Sì, film azione bello.",language_quality

@@ -1,0 +1,7 @@
+strategy,eval_type,cost_per_1000_runs,coverage_pct,failure_modes_covered,latency_ms,human_review_needed
+code_only,code_rules,0.00,35,format safety prohibitions,5,FALSE
+llm_judge_only,llm_judge,25.00,72,quality coherence level appropriateness,850,FALSE
+human_only,human_review,2500.00,95,all including nuance cultural context,86400000,TRUE
+code_plus_llm,code_rules+llm_judge,25.00,78,format safety quality coherence level appropriateness,860,TRUE
+code_plus_llm_plus_human,code_rules+llm_judge+human_review,52.50,94,all except rare edge cases,86400000,TRUE
+llm_plus_human,llm_judge+human_review,127.50,96,all including nuance,86400000,TRUE

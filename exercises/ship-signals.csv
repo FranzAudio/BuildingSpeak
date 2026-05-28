@@ -1,0 +1,13 @@
+metric,current_value,threshold,direction,is_guardrail,trend,severity
+safety_incidents,0,0,below_threshold,TRUE,stable,low
+language_coverage,5,5,above_threshold,TRUE,stable,low
+regulatory_compliance,100,100,above_threshold,TRUE,stable,low
+conversation_starts_daily,1820,2000,below_threshold,FALSE,declining,medium
+second_conversation_rate,0.11,0.20,below_threshold,FALSE,flat,high
+quality_score_pct,0.72,0.80,below_threshold,FALSE,flat,medium
+support_tickets_weekly,35,20,above_threshold,FALSE,increasing,medium
+session_completion_rate,0.64,0.70,below_threshold,FALSE,flat,medium
+b1_plus_quality,0.64,0.80,below_threshold,FALSE,flat,high
+daily_active_speakers,1680,3000,below_threshold,FALSE,declining,high
+avg_session_duration_sec,128,180,below_threshold,FALSE,flat,low
+user_satisfaction_rating,3.8,4.0,below_threshold,FALSE,flat,medium

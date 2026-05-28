@@ -1,0 +1,15 @@
+iteration,failure_mode,prompt_version,quality_score_before,quality_score_after,human_agreement_rate,rolled_back
+1,communication_breakdown,v1.0_add_clarification,0.62,0.71,0.78,FALSE
+2,communication_breakdown,v1.1_short_filter,0.71,0.79,0.84,FALSE
+3,communication_breakdown,v1.2_context_aware,0.79,0.88,0.89,FALSE
+4,communication_breakdown,v1.3_always_ask,0.88,0.64,0.72,TRUE
+5,level_appropriateness,v2.0_explicit_level,0.67,0.74,0.81,FALSE
+6,level_appropriateness,v2.1_simplify_vocab,0.74,0.82,0.87,FALSE
+7,level_appropriateness,v2.2_short_sentences,0.82,0.85,0.88,FALSE
+8,level_appropriateness,v2.3_complexity_cap,0.85,0.79,0.83,TRUE
+9,coherence,v3.0_anti_repeat,0.70,0.76,0.80,FALSE
+10,coherence,v3.1_turn_tracking,0.76,0.83,0.85,FALSE
+11,coherence,v3.2_context_window,0.83,0.87,0.88,FALSE
+12,coherence,v3.3_memory_summary,0.87,0.86,0.87,FALSE
+13,conversation_ending,v4.0_graceful_end,0.72,0.78,0.82,FALSE
+14,conversation_ending,v4.1_natural_close,0.78,0.84,0.86,FALSE
